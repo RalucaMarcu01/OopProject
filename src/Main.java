@@ -99,8 +99,15 @@ public class Main {
         maratonist1.seOdihneste();
 
 
+        SmartphoneIOS telefon1=new SmartphoneIOS();
+        SmartphoneAndroid telefon2=new SmartphoneAndroid();
+        telefon1.porneste();
+        telefon2.porneste();
+        telefon1.seOpreste();
+        telefon2.seOpreste();
         Tableta tableta1=new Tableta();
-        Smartphone telefon1=new Smartphone();
+        tableta1.seOpreste();
+        tableta1.porneste();
 
 
         }

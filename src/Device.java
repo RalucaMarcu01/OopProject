@@ -1,6 +1,5 @@
 abstract class Device {
-    abstract void porneste()
-
-    abstract void sEOpreste();
+    abstract void porneste();
+    abstract void seOpreste();
 
 }
