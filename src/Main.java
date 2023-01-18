@@ -91,16 +91,17 @@ public class Main {
 //        elev3.afiseazzaElevDiriginte();
 
 
-        Inotator inotator1=new Inotator();
-        Maratonist maratonist1=new Maratonist();
-        maratonist1.seAntreneaza();
-        inotator1.seAntreneaza();
+        Inotator inotator1=new Inotator("400 m spate", "Romania");
+        //Maratonist maratonist1=new Maratonist();
+        //maratonist1.seAntreneaza();
+       // inotator1.seAntreneaza();
         inotator1.seOdihneste();
-        maratonist1.seOdihneste();
+        inotator1.ceTaraReprezinta();
+        //maratonist1.seOdihneste();
 
 
-        SmartphoneIOS telefon1=new SmartphoneIOS();
-        SmartphoneAndroid telefon2=new SmartphoneAndroid();
+        SmartphoneIOS telefon1=new SmartphoneIOS(2342,"Apple");
+        SmartphoneAndroid telefon2=new SmartphoneAndroid(737,"apple");
         telefon1.porneste();
         telefon2.porneste();
         telefon1.seOpreste();

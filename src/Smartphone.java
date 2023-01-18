@@ -1,7 +1,13 @@
 public class  Smartphone extends Device{
-    private String marca="no name";
+    protected double pret;
+    protected String marca="no name";
 
-//    public String getMarca() {
+    public Smartphone(double pret, String marca) {
+        this.pret = pret;
+        this.marca = marca;
+    }
+
+    //    public String getMarca() {
 //        return marca;
 //    }
 //
